@@ -1,6 +1,7 @@
 function cors(req, res, next) {
   const origins = [
     'http://localhost',
+    'https://counting-server-220515.herokuapp.com',
     'https://counting-client-220515.herokuapp.com'
   ];
 
